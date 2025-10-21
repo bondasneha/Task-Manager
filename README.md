@@ -1,6 +1,6 @@
 #  Task Manager
 
-A full-stack **Task Management Application** built using **Next.js**, **TypeScript**, **MongoDB**, and **NextAuth** for authentication. 
+- A full-stack **Task Management Application** built using **Next.js**, **TypeScript**, **MongoDB**, and **NextAuth** for authentication. 
 
 - This app allows users to sign up, log in, and manage their daily tasks efficiently with a clean and interactive interface.
 
@@ -48,19 +48,19 @@ A full-stack **Task Management Application** built using **Next.js**, **TypeScri
 
 ##  Installation
 
-### 1️ Clone the Repository
+### 1️. Clone the Repository
 
 git clone https://github.com/bondasneha/Task-Manager.git
 cd Task-Manager
 
-### 2️ Install Dependencies
+### 2️. Install Dependencies
 
 npm install
  or
 pnpm install
 
 
-### 3 Add Environment Variables
+### 3. Add Environment Variables
 
 Create a .env file in your project root and add the following:
 
@@ -70,7 +70,7 @@ NEXTAUTH_SECRET=your_nextauth_secret
 
 NEXTAUTH_URL=http://localhost:3000
 
-### 4️ Run the Development Server
+### 4️. Run the Development Server
 
 npm run dev
 
@@ -172,6 +172,7 @@ Add task categories and filters
 ## License
 
 This project is licensed under the MIT License.
+
 
 
 

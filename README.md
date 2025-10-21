@@ -77,49 +77,52 @@ Then open:
 
 # Task-Manager/
  │
- ├──## app/
+ ## ├── app/
  
- │   ├── ### api/
+### │   ├──  api/
  
- │   │   ├── auth/[...nextauth]/route.ts
+   │   │   ├── auth/[...nextauth]/route.ts
  
- │   │   └── tasks/route.ts
+   │   │   └── tasks/route.ts
  
- │   ├── dashboard/page.tsx
+   │   ├── dashboard/page.tsx
  
- │   ├── login/page.tsx
+   │   ├── login/page.tsx
+   
+   │   └── signup/page.tsx
+
+   
+ ## ├── components/
  
- │   └── signup/page.tsx
- │
- ├──## components/
+   │   ├── Task.tsx
  
- │   ├── Task.tsx
+   │   └── Dashboard.tsx
+
  
- │   └── Dashboard.tsx
- │
- ├──## lib/
+## ├── lib/
  
- │   ├── mongodb.ts
+   │   ├── mongodb.ts
  
- │   └── auth.ts
- │
- ├──## assets/
+   │   └── auth.ts
+
  
- │   └── screenshots/
- │
- ├── ## styles/
+ ## ├── assets/
  
- │   └── globals.css
- │
- ├── .env
+   │   └── screenshots/
+   
+## ├──  styles/
  
- ├── .gitignore
+   │   └── globals.css
  
- ├── next.config.js
+   ├── .env
  
- ├── package.json
+   ├── .gitignore
  
- └── README.md
+   ├── next.config.js
+ 
+   ├── package.json
+ 
+   └── README.md
 
 
 ## Screenshots
@@ -160,5 +163,6 @@ Improve analytics and user insights
 
 ## License
 This project is licensed under the MIT License.
+
 
 

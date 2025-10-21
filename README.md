@@ -1,7 +1,8 @@
 #  Task Manager
 
-A full-stack **Task Management Application** built using **Next.js**, **TypeScript**, **MongoDB**, and **NextAuth** for authentication.  
-This app allows users to sign up, log in, and manage their daily tasks efficiently with a clean and interactive interface.
+A full-stack **Task Management Application** built using **Next.js**, **TypeScript**, **MongoDB**, and **NextAuth** for authentication. 
+
+- This app allows users to sign up, log in, and manage their daily tasks efficiently with a clean and interactive interface.
 
 
 
@@ -54,16 +55,19 @@ cd Task-Manager
 
 ### 2️ Install Dependencies
 
-
 npm install
-# or
+ or
 pnpm install
 
+
 ### 3 Add Environment Variables
+
 Create a .env file in your project root and add the following:
 
 MONGODB_URI=your_mongodb_connection_string
+
 NEXTAUTH_SECRET=your_nextauth_secret
+
 NEXTAUTH_URL=http://localhost:3000
 
 ### 4️ Run the Development Server
@@ -71,6 +75,7 @@ NEXTAUTH_URL=http://localhost:3000
 npm run dev
 
 Then open:
+
  http://localhost:3000/signup
 
 ## Folder Structure
@@ -134,38 +139,40 @@ Place your screenshots inside the assets/screenshots/ folder and reference them 
 
 ### Page	Preview
 
-Dashboard	
-Login Page	
-Add Task	
-Signup Page	
+- Dashboard	
+- Login Page	
+- Add Task	
+- Signup Page	
 
 ## Deployment (Vercel)
 
 To deploy your project:
 
-Push your project to GitHub
+  Push your project to GitHub
 
-Go to Vercel
+  Go to Vercel
 
-Import your repository
+  Import your repository
 
-Add your .env variables in Vercel settings
+  Add your .env variables in Vercel settings
 
-Click Deploy
+  Click Deploy
 
 ## Future Improvements
 
 Add task categories and filters
 
-Integrate with Google Calendar / Reminders
+  Integrate with Google Calendar / Reminders
 
-Add dark mode toggle
+  Add dark mode toggle
 
-Improve analytics and user insights
+  Improve analytics and user insights
 
 
 ## License
+
 This project is licensed under the MIT License.
+
 
 
 

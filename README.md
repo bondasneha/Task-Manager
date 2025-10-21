@@ -76,53 +76,56 @@ Then open:
 ## Folder Structure
 
 # Task-Manager/
- │
+
+ 
  ## ├── app/
- 
-### │   ├──  api/
- 
-   │   │   ├── auth/[...nextauth]/route.ts
- 
-   │   │   └── tasks/route.ts
- 
-   │   ├── dashboard/page.tsx
- 
-   │   ├── login/page.tsx
-   
-   │   └── signup/page.tsx
-
-   
- ## ├── components/
- 
-   │   ├── Task.tsx
- 
-   │   └── Dashboard.tsx
 
  
-## ├── lib/
+###     ├──  api/
  
-   │   ├── mongodb.ts
+             ├── auth/[...nextauth]/route.ts
  
-   │   └── auth.ts
+             └── tasks/route.ts
+ 
+        ├── dashboard/page.tsx
+ 
+        ├── login/page.tsx
+   
+        └── signup/page.tsx
+
+   
+ ##     ├── components/
+ 
+           ├── Task.tsx
+ 
+           └── Dashboard.tsx
 
  
- ## ├── assets/
+##      ├── lib/
  
-   │   └── screenshots/
+            ├── mongodb.ts
+ 
+            └── auth.ts
+
+ 
+ ##      ├── assets/
+ 
+             └── screenshots/
+       
    
-## ├──  styles/
+##       ├──  styles/
  
-   │   └── globals.css
+              └── globals.css
  
-   ├── .env
+         ├── .env
  
-   ├── .gitignore
+         ├── .gitignore
  
-   ├── next.config.js
+         ├── next.config.js
  
-   ├── package.json
+         ├── package.json
  
-   └── README.md
+         └── README.md
 
 
 ## Screenshots
@@ -163,6 +166,7 @@ Improve analytics and user insights
 
 ## License
 This project is licensed under the MIT License.
+
 
 
 

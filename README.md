@@ -75,51 +75,51 @@ Then open:
 
 ## Folder Structure
 
-Task-Manager/
-│
-├── app/
-
-│   ├── api/
-
-│   │   ├── auth/[...nextauth]/route.ts
-
-│   │   └── tasks/route.ts
-
-│   ├── dashboard/page.tsx
-
-│   ├── login/page.tsx
-
-│   └── signup/page.tsx
-│
-├── components/
-
-│   ├── Task.tsx
-
-│   └── Dashboard.tsx
-│
-├── lib/
-
-│   ├── mongodb.ts
-
-│   └── auth.ts
-│
-├── assets/
-
-│   └── screenshots/
-│
-├── styles/
-
-│   └── globals.css
-│
-├── .env
-
-├── .gitignore
-
-├── next.config.js
-
-├── package.json
-
-└── README.md
+# Task-Manager/
+ │
+ ├──## app/
+ 
+ │   ├── ### api/
+ 
+ │   │   ├── auth/[...nextauth]/route.ts
+ 
+ │   │   └── tasks/route.ts
+ 
+ │   ├── dashboard/page.tsx
+ 
+ │   ├── login/page.tsx
+ 
+ │   └── signup/page.tsx
+ │
+ ├──## components/
+ 
+ │   ├── Task.tsx
+ 
+ │   └── Dashboard.tsx
+ │
+ ├──## lib/
+ 
+ │   ├── mongodb.ts
+ 
+ │   └── auth.ts
+ │
+ ├──## assets/
+ 
+ │   └── screenshots/
+ │
+ ├── ## styles/
+ 
+ │   └── globals.css
+ │
+ ├── .env
+ 
+ ├── .gitignore
+ 
+ ├── next.config.js
+ 
+ ├── package.json
+ 
+ └── README.md
 
 
 ## Screenshots
